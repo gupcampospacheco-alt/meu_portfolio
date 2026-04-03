@@ -1,68 +1,127 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
-  <meta charset="UTF-8">
-  <title>Gustavo Pacheco</title>
- <link rel="stylesheet" href="style.css">
- <a href="https://wa.me/+55 (46) 99133-2441" class="whatsapp" target="_blank">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
-</a>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Gustavo Pacheco | Desenvolvedor</title>
+
+  <link rel="stylesheet" href="style.css" />
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+  />
 </head>
 <body>
+  <nav class="navbar">
+    <div class="logo">GP</div>
 
-<header>
-  <h1 id="typing"></h1>
-  <p>Desenvolvedor focado em interfaces modernas e experiências digitais</p>
-</header>
+    <div class="nav-links">
+      <a href="#inicio">Início</a>
+      <a href="#sobre">Sobre</a>
+      <a href="#projetos">Projetos</a>
+      <a href="#contato">Contato</a>
+    </div>
+  </nav>
 
-<section class="about">
-  <h2>Sobre Mim</h2>
-  <p>Sou aluno da segunda série do ensino médio tecnico em analize e desenvolvimento de sistemas do colégio sesi da industria de Pato Branco, estou começando a desenvolver sistemas web a pouco tempo, mas tenho toda ajuda e sei que posso fazer o site dos seus sonhos. Entre em contato comigo pelo WhatsApp (46) 99133-2441 e me contrate para ter o site incrivel que você sempre quis!</p>
-</section>
+  <header id="inicio" class="hero">
+    <div class="container hero-content reveal">
+      <h1 id="typing"></h1>
+      <p>
+        Desenvolvedor focado em interfaces modernas e experiências digitais
+      </p>
 
-<section class="projects">
-  <h2>Projetos</h2>
+      <div class="hero-buttons">
+        <a href="#projetos" class="btn-principal">Ver projetos</a>
+        <a href="https://wa.me/5546991332441" target="_blank" class="btn-secundario">
+          Falar no WhatsApp
+        </a>
+      </div>
+    </div>
+  </header>
 
-  <div class="card">
-    <h3>A & G Diversões</h3>
-    <a href="https://gupcampospacheco-alt.github.io/AeGDivers-es_site.com.br" target="_blank">
-  Ver projeto
-</a>
-    <p>Esse projeto é para minha fam~ilia, meus pais são empreendedores e precisam de um site para divulgar seus produtos e fazer agendamentos, ent resolvi ajudar eles com esse site.</p>
-  </div>
+  <section id="sobre" class="sobre reveal">
+    <div class="container">
+      <h2>Sobre Mim</h2>
 
+      <p>
+        Sou estudante do ensino médio técnico em Análise e Desenvolvimento de Sistemas
+        no SESI/SENAI de Pato Branco.
+      </p>
 
-</section>
+      <p>
+        Estou desenvolvendo minhas habilidades em criação de sites modernos,
+        responsivos e profissionais, com foco em visual bonito, organização e
+        boa experiência para o usuário.
+      </p>
+    </div>
+  </section>
 
-<head>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
-</head>
+  <section id="projetos" class="projetos reveal">
+    <div class="container">
+      <h2>Projetos</h2>
 
-<section class="contato">
-  <h2>Contato</h2>
+      <div class="projects-grid">
+        <article class="card">
+          <h3>A &amp; G Diversões</h3>
+          <p class="projeto-subtitulo">Site para divulgação e agendamentos</p>
 
-<div class="scroll-horizontal">
+          <p>
+            Esse projeto foi criado para ajudar minha família a divulgar os
+            produtos e facilitar o contato com clientes por meio de um site
+            mais profissional.
+          </p>
 
-  <!-- WhatsApp -->
-  <a href="https://wa.me/5546991332441" target="_blank" class="item-scroll">
-    <i class="fa-brands fa-whatsapp"></i>
-    <p>WhatsApp</p>
+          <div class="tags">
+            <span>HTML</span>
+            <span>CSS</span>
+            <span>JavaScript</span>
+          </div>
+
+          <a
+            href="https://gupcampospacheco-alt.github.io/AeGDivers-es_site.com.br"
+            target="_blank"
+            class="projeto-link"
+          >
+            Ver projeto
+          </a>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section id="contato" class="contato reveal">
+    <div class="container">
+      <h2>Contato</h2>
+
+      <div class="contato-slider" id="slider">
+        <div class="contato-track">
+          <a href="https://wa.me/5546991332441" target="_blank" class="contato-card">
+            <i class="fab fa-whatsapp"></i>
+            <span>WhatsApp</span>
+          </a>
+
+          <a href="https://instagram.com/SEUUSUARIO" target="_blank" class="contato-card">
+            <i class="fab fa-instagram"></i>
+            <span>Instagram</span>
+          </a>
+
+          <a href="https://linkedin.com/in/SEUUSUARIO" target="_blank" class="contato-card">
+            <i class="fab fa-linkedin-in"></i>
+            <span>LinkedIn</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <p>© 2026 Gustavo Pacheco. Todos os direitos reservados.</p>
+  </footer>
+
+  <a href="https://wa.me/5546991332441" class="whatsapp" target="_blank" aria-label="WhatsApp">
+    <i class="fab fa-whatsapp"></i>
   </a>
 
-  <!-- Instagram -->
-  <a href="https://instagram.com/SEU_USUARIO" target="_blank" class="item-scroll">
-    <i class="fa-brands fa-instagram"></i>
-    <p>Instagram</p>
-  </a>
-
-  <!-- LinkedIn -->
-  <a href="https://linkedin.com/in/SEU_USUARIO" target="_blank" class="item-scroll">
-    <i class="fa-brands fa-linkedin-in"></i>
-    <p>LinkedIn</p>
-  </a>
-
-</div>
-
-<script src="script.js"></script>
+  <script src="script.js"></script>
 </body>
 </html>
